@@ -1,3 +1,2 @@
 # HORNN
-![Image of BPTT] 
-(/bptt.png)
+![Image of BPTT](/bptt.png)
