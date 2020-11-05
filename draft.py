@@ -154,7 +154,7 @@ class HORNN:
             gW_hh = gW_hh + M * r
 
             gW_hy = gW_hy + dloss_dWhy(t)
-            gW_hx = gW_hx + gh * idh_dWhx(t)
+            gW_hx = gW_hx + M * idh_dWhx(t)
 
         # for now gW_hh is update for only W_hh[0]
         # soon will add for each W_hh[i]
